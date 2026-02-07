@@ -1,0 +1,27 @@
+# Core Document Processing
+docling
+tqdm
+
+# API Framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary  # PostgreSQL driver (comment out if not using PostgreSQL)
+
+# API Utilities
+python-multipart
+aiofiles
+python-dotenv
+pydantic
+pydantic-settings
+
+# AI Integration (LangChain + Gemini)
+langchain
+langchain-core
+langchain-google-genai
+Pillow
+
+# Production Deployment (Optional)
+gunicorn
